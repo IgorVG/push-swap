@@ -1,6 +1,6 @@
 # push-swap
 Sorting optimization problem under constraints. Two stacks and a given set of operations are used.
-
+![](push-swap.gif)
 
 | Operations    | Description   |
 |:-------------:|---------------|
@@ -15,3 +15,6 @@ Sorting optimization problem under constraints. Two stacks and a given set of op
 | rra           | rotates backward stuck A down by one |
 | rrb           | rotates backward stuck B down by one |
 | rrr           | rotates backward both A and B down by one |
+
+Simple testing ruby script:
+ARG=`ruby -e "puts (1..500).to_a.shuffle.join(' ')"`; ./push_swap $ARG | ./checker $ARG
