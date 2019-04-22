@@ -20,6 +20,7 @@ Simple testing ruby script:
 ARG=`ruby -e "puts (1..500).to_a.shuffle.join(' ')"`; ./push_swap $ARG | ./checker $ARG
 Performances:
 |Number entries	|Average number operations|
+|:-------------:|-------------------------|
 |3				|< 3|
 |5				|< 12|
 |100			|< 690|
