@@ -1,6 +1,6 @@
 # push-swap
 Sorting optimization problem under constraints. Two stacks and a given set of operations are used.
-![](push-swap.gif | width=100)
+![](push-swap.gif = 250x)
 
 | Operations    | Description   |
 |:-------------:|---------------|
