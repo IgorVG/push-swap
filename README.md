@@ -2,7 +2,7 @@
 Sorting optimization problem under constraints. Two stacks and a given set of operations are used.
 Set of operations on stacks:
 
-| operations    | Description   |
+| Operations    | Description   |
 |:-------------:|---------------|
 | sa            | swap first two elements of stack A |
 | sb            | swap first two elements of stack B |
