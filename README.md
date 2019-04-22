@@ -1,6 +1,6 @@
 # push-swap
 Sorting optimization problem under constraints. Two stacks and a given set of operations are used.
-<img src="push-swap.gif" alt="push-swap-animated" width="500"/>
+<img src="push-swap.gif" alt="push-swap-animated" width="350"/>
 
 | Operations    | Description   |
 |:-------------:|---------------|
@@ -19,9 +19,9 @@ Sorting optimization problem under constraints. Two stacks and a given set of op
 Simple testing ruby script:
 ARG=`ruby -e "puts (1..500).to_a.shuffle.join(' ')"`; ./push_swap $ARG | ./checker $ARG
 Performances:
-|Number entries	|Average number operations|
-|:-------------:|-------------------------|
-|3				|< 3|
-|5				|< 12|
-|100			|< 690|
-|500			|< 4950|
+|Number entries	| Average number operations|
+|:-------------:|--------------------------|
+| 3			      	| < 3 |
+| 5		      		| < 12  |
+| 100	      		| < 690 |
+| 500		      	| < 4950  |
